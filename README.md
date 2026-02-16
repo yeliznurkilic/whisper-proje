@@ -57,7 +57,7 @@ yazilim
 
 📦 Kurulum
 1️⃣ Projeyi Klonla
-git clone https://github.com/kullaniciadi/proje-adi.git
+git clone https://github.com/yeliznurkilic/whisper-proje.git
 cd proje-adi
 
 2️⃣ Virtual Environment Oluştur
