@@ -1,11 +1,17 @@
 🎙️ Whisper AI – Speech to Text + Topic Detection + Translation
 
 Bu proje, yüklenen ses dosyalarını:
+
 📝 Metne dönüştürür (Speech-to-Text)
+
 🌍 Otomatik dil tespiti yapar
+
 🧠 Konu analizi yapar (Custom XLM-RoBERTa model)
+
 🌐 İngilizce / Türkçe çeviri yapar
+
 📩 Telegram bildirimi gönderir
+
 
 Tamamen Python tabanlı bir AI web uygulamasıdır.
 
