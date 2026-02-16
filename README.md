@@ -12,33 +12,47 @@ Bu proje, yüklenen ses dosyalarını:
 
 📩 Telegram bildirimi gönderir
 
-
 Tamamen Python tabanlı bir AI web uygulamasıdır.
 
 🚀 Özellikler
+
 OpenAI Whisper ile ses → metin
+
 Otomatik dil algılama
+
 XLM-RoBERTa ile konu sınıflandırma
+
 Türkçe eğitilmiş özel topic modeli
+
 İngilizce / Türkçe çeviri
+
 Telegram bot entegrasyonu
+
 Web tabanlı arayüz
 
 .mp3 / .wav / .webm / .m4a destekler
 
 🧠 Kullanılan Modeller
 🎙️ Whisper (medium)
+
 Ses dosyasını metne çevirir ve dili tespit eder.
+
 🧠 XLM-RoBERTa (Custom Fine-Tuned Model)
 
 Eğitilmiş konu etiketleri:
 
 egitim
+
 finans
+
 gunluk
+
 hukuk
+
 saglik
+
 teknik
+
 yazilim
 
 📦 Kurulum
@@ -52,6 +66,7 @@ venv\Scripts\activate
 
 3️⃣ Gerekli Kütüphaneleri Kur
 pip install -r requirements.txt
+
 Ayrıca sistemde FFmpeg kurulu olmalı.
 
 ▶️ Projeyi Çalıştırma
@@ -59,6 +74,7 @@ python server.py
 
 
 Tarayıcıdan aç:
+
 http://localhost:8001
 
 📂 Proje Yapısı
@@ -72,33 +88,57 @@ http://localhost:8001
 🔄 Çalışma Akışı
 
 Kullanıcı ses dosyası yükler
+
 FFmpeg → WAV dönüştürme
+
 Whisper → Metin + Dil
+
 XLM-RoBERTa → Konu Tahmini
+
 (Opsiyonel) Çeviri
+
 Telegram bildirimi
+
 Sonuç web arayüzünde gösterilir
 
 📸 Örnek Çıktı
+
 Dil: tr
+
 Konu: egitim (0.99)
+
 Metin: "..."
 
 🔐 Güvenlik Notu
+
 Telegram bot token'ınızı public repoda paylaşmayın.
 .env dosyası kullanmanız önerilir.
 
 🛠️ Geliştirme Planı
+
  Duygu analizi ekleme
+
  REST API yapısına geçiş (FastAPI)
+
  Docker desteği
+
  Gerçek zamanlı ses akışı
+
  Model optimizasyonu
 
 👩‍💻 Geliştirici
+
 Yeliz 🚀
 AI & NLP Projects
-## 📸 Uygulama Görselleri
+
+
+##  Uygulama Görselleri ve ses
+
+## 🎧 Örnek Ses Dosyası
+
+[Ses dosyasını dinlemek için tıklayın](ses1.mp3)
+
+---
 
 ### 🎙️ Ana Arayüz
 
