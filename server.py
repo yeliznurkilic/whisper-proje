@@ -20,7 +20,7 @@ topic_model = AutoModelForSequenceClassification.from_pretrained(TOPIC_MODEL_PAT
 topic_classifier = pipeline("text-classification", model=topic_model, tokenizer=topic_tokenizer)
 
 # Telegram bot token ve chat_id
-bot_token = "8362774290:AAHTgxJqlPBGr7qrw1zOv1o-7P-utLtHsKY"
+bot_token = "telegram_tokenını_buraya_yaz"
 chat_id = "6695817972" 
 
 async def send_telegram_notification(title, message):
